@@ -27,6 +27,7 @@ my_app-*.tar
 # this depending on your deployment strategy.
 /priv/static/
 
+# Ignore files that should be local configured
 config/dev.exs
-
+config/test.exs
 docker-compose.yml
