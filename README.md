@@ -17,3 +17,17 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Setup
+    
+1. Copy config
+    
+  ```
+  cp config/dev.exs.example config/dev.exs
+  ```    
+
+1. Install dependencies:
+
+  ```
+  mix deps.get
+  ```
