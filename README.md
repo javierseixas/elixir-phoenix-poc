@@ -24,6 +24,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
     
   ```
   cp config/dev.exs.example config/dev.exs
+  cp config/test.exs.example config/test.exs
   ```    
 
 1. Install dependencies:
