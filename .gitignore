@@ -27,6 +27,9 @@ my_app-*.tar
 # this depending on your deployment strategy.
 /priv/static/
 
+# Ignore debugging files fot elixir_ls
+.elixir_ls/
+
 # Ignore files that should be local configured
 config/dev.exs
 config/test.exs
