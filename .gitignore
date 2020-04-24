@@ -28,3 +28,5 @@ my_app-*.tar
 /priv/static/
 
 config/dev.exs
+
+docker-compose.yml
