@@ -18,6 +18,7 @@ defmodule MyAppWeb.Router do
   scope "/api", MyAppWeb do
     pipe_through [:api, :api_auth]
     resources "/users", UserController, except: [:new, :edit]
+    resources "/calendars", CalendarController, except: [:new, :edit]
   end
 
   # Plug function
