@@ -31,6 +31,9 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :goth,
+  json: "elixir-phoenix-poc-d7a70b5f9c2a.json" |> File.read!
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"

@@ -41,7 +41,10 @@ defmodule MyApp.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:bcrypt_elixir, "~> 2.0"}
+      {:bcrypt_elixir, "~> 2.0"},
+      {:google_api_calendar, "~> 0.14.0"},
+      {:google_api_tasks, "~> 0.8"},
+      {:goth, "~> 1.2.0"}
     ]
   end
 
